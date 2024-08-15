@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+html,
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #d0d4d5;
+}
+
+/*HEADER EDITS*/
+
+.nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav1 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 li{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+
+}
+.nav1 li:hover{
+    border-bottom: 2px solid black;
+}
+.nav img{
+     height: 50px;
+     width: auto;
+     margin-right: 40px;
+     font-size: 60px;
+     cursor: pointer;
+}
+
+.nav2 a{
+    margin-right: 45px;
+    font-size: 23px;
+    font-weight: 500;
+    
+}
+
+.nav2 a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+/* MAIN LEFT EDITS*/
+
+.content{
+    display: flex;
+    height: calc(100% - 110px);
+    width: 100%;
+    position: relative;
+}
+.content-left{
+    height: 100%;
+    width: 60%;
+    padding: 80px 100px;
+}
+.content-left h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #555;
+    margin-bottom: 10px;
+}
+ h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+}
+.content-left p{
+    font-size: 20px;
+    color: #000;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.btn1{
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 0 50px 50px;
+}
+
+
+
+/*MAIN REIGHT EDITS*/
+
+.content-right{
+    height: 80%;
+    width: 60%;
+    padding: 110px 110px;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+.content-right::-webkit-scrollbar{
+    display: none ;
+}
+
+.product{
+    height: 300px;
+    width: 200px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(46, 2, 46, 0.5);
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+.product img{
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+
+}
+.product h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+}
+.category{
+    position: absolute;
+    bottom: 20%;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.color{
+    position: absolute;
+    bottom: 13%;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.price{
+    font-size: 16px;
+    position: absolute;
+    bottom: 5%;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 10px;
+
+}
+.product h4{
+    padding-left: 10px;
+}
